@@ -11,6 +11,6 @@ Install
 
 npm script
 ```
-  "start-vs-db": "concurrently \"react-scripts start\" \"npm run mock\"",
+  "start-full": "concurrently \"npm start\" \"npm run mock\"",
   "mock": "json-server --watch __mock_db__/db.json --port 3004"
 ```
