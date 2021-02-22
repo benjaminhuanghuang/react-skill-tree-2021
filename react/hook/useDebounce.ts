@@ -22,5 +22,5 @@ const [param, setParam] = useState({});
 const debouncedParam = useDebounce(param, 2000);
 
 useEffect(() => {
-  fetcth(``);
+  fetch(``);
 }, [debouncedParam]);
