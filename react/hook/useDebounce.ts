@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
-export const useDebounce = (value, delay) => {
+// return value and input value have samp type
+export const useDebounce = <V>(value:V, delay?:number) => {
   const [debouncedValue, setDebouncedValue] = useState(value);
 
   useEffect(() => {

@@ -12,7 +12,7 @@ Change
 
 To 
 ```
-  import * as qs from 'qs'
+  import qs from 'qs'
   
   fetch(`${apiURL}/projects?${qs.stringify(queryObj)}`)
 ```
